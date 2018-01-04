@@ -1,0 +1,5 @@
+ai.rho.extensions.clientuser.ClientUserRealmResourceProviderFactory
+ai.rho.extensions.passwordreset.ResetPasswordCodeResourceProviderFactory
+ai.rho.extensions.groupuser.GroupUserRealmResourceProviderFactory
+ai.rho.extensions.authcode.AuthCodeResourceProviderFactory
+ai.rho.extensions.safecustomattributes.SafeCustomAttributesResourceProviderFactory

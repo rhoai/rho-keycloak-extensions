@@ -1,0 +1,5 @@
+ai.rho.extensions.clientuser.spi.ClientUserSpi
+ai.rho.extensions.groupuser.spi.GroupUserSpi
+ai.rho.extensions.passwordreset.spi.ResetPasswordCodeSpi
+ai.rho.extensions.authcode.spi.AuthCodeSpi
+ai.rho.extensions.safecustomattributes.spi.SafeCustomAttributesSpi
