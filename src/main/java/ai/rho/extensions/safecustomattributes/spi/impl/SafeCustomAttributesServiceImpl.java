@@ -89,8 +89,12 @@ public class SafeCustomAttributesServiceImpl implements SafeCustomAttributesServ
             query.setParameter(entry.getKey(), entry.getValue());
         }
 
-        UserEntity entity = query.getSingleResult();
-        return new UserAdapter(session, realm, em, entity);
+        try {
+            UserEntity entity = query.getSingleResult();
+            return new UserAdapter(session, realm, em, entity);
+        } catch (NoResultException e) {
+            return null;
+        }
     }
 
     @Override
